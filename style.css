@@ -1,0 +1,313 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: lightgrey;
+    width:100%;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+header h4{
+    float: right;
+    margin: 10px;
+    padding: 15px;
+    border: 0px solid cyan;
+    border-radius: 100%;
+    background-color: rgb(252, 145, 6);
+    box-shadow: 2px green;
+    transition: all .5s ease-in-out;
+}
+header h4 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+header h4:hover{
+    background-color: blue;
+    transform: rotate(360deg);
+}
+header h4 a:hover{
+    color: cornsilk;
+}
+.list li{
+    float: left;
+    /* display: flex; */
+    margin: 10px;
+    padding: 15px;
+    list-style: none;
+}
+.list li:hover{
+background-color: rgb(255, 37, 226);
+color: rgb(217, 255, 0);
+}
+.list li a:hover{
+    color: deepskyblue;
+}
+.list li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: orangered;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+.secdiv1{
+    max-width: 100%;
+    /* margin: auto; */
+    /* display: block; */
+    align-items: center;
+    align-content: center;
+    background-image: linear-gradient(to left,red ,yellow);
+    background-color: deepskyblue;
+    /* position: absolute; */
+    margin: 0;
+    padding: 20px;
+    opacity: 0.8;
+
+}
+.secdiv1 h2{
+    text-align: center;
+    padding: 5px;
+    color: deepskyblue;
+    font-weight: bold;
+    animation: page 3s 1;
+}
+@keyframes page{
+    0%{
+        color: black;
+        margin-bottom: -40px;
+        font-size: 50px;
+
+    }
+    25%{
+        letter-spacing: 35px;
+        margin-bottom: -20px;
+        color: rgb(241, 10, 10);
+        font-size: 47px;
+    }
+    50%{
+        letter-spacing: 30px;
+        margin-bottom: -20px;
+        color: rgb(10, 233, 40);
+        font-size: 45px;
+    }
+    75%{
+        letter-spacing: 25px;
+        margin-bottom: -20px;
+        color: rgb(42, 7, 243);
+        font-size: 40px;
+    }
+    100%{
+        letter-spacing: 20px;
+        margin-bottom: -20px;
+        color: rgb(250, 9, 158);
+        font-size: 35px;
+    }
+}
+.secdiv1 p{
+    margin-top: 10px;
+    color: rgb(15, 14, 14);
+}
+.secdiv2{
+    display: flex;
+    max-width: 100%px;
+    height: 250px;}
+    .sec2{
+    background-image: linear-gradient(to left,pink,white,blue);
+    
+}
+.img{
+    /* border: 2px solid rgb(255, 0, 140); */
+    /* background-color: goldenrod; */
+    margin: 0;
+    padding: 5px;
+    width: 26.21%;
+    
+}
+.img img{
+    width: 100%;
+    /* padding-bottom: 5px; */
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 2px 3px 4px rgb(11, 14, 14);
+}
+.img p{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    /* font-weight: bold; */
+    color: rgb(58, 16, 16);
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.sec3{
+/* position: absolute; */
+background-image: linear-gradient(to bottom,orange,white,green);
+}
+.secdiv3{
+margin: 0;
+box-sizing: border-box;
+text-align: center;
+
+}
+.secdiv3 h2{
+    color: rgb(55, 0, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 5px;
+}
+.secdiv3 h2::first-letter{
+    font-size: larger;
+    color: rgb(240, 14, 127);
+}
+.secdiv3 p{
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.secdiv3 p::first-letter{
+    font-size: 30px;
+    font-weight: bold;
+}
+.cnt{
+    margin-top: 0;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    background-color: powderblue;
+
+}
+.flw{
+   /* border: 2px solid red; */
+    margin-left: 270px;
+    position: relative;
+}
+.flw h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: italic;
+    /* padding: 5px; */
+    margin: 5px;
+}
+.flw p{
+    margin-left: 20px;
+    /* text-transform: uppercase; */
+}
+.flw p a{
+    text-decoration: none;
+}
+.flw img{
+    width: 30px;
+    height: 25px;
+    border-radius: 100%;
+    padding: 3px;
+    /* margin-top: 5px; */
+}
+#insta{
+    width: 30px;
+    height: 25px;
+    margin-left: 0px;
+    /* padding: 3px; */
+}
+footer{
+    height: 40px;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 800;
+    color: grey;
+    background-color: black;
+}
+
+
+/* sign in form */
+
+        .tiger {
+    width: 300px;
+    height: 300px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 2px solid rgb(147, 255, 7);
+    /* background-color: rgb(116, 12, 60); */
+    background-image: linear-gradient(to bottom, rgb(255, 0, 128),yellow,cyan);
+    border-radius: 10px;
+}
+.tiger h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    color: blue;
+    
+}
+.tiger h5{
+    margin-left:60px;
+    margin-top: 10px;
+}
+.tiger h5 a{
+    color: red;
+}
+
+.openbtn {
+    float: right;
+}
+.jackle{
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+}
+.closebtn{
+    position: absolute;
+    top: 140px;
+    left: 840px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+    display: flex;
+}
+form{
+    margin: 0px 30px;
+    padding: 10px;
+    
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    /* border: 1px solid grey; */
+    outline: none; 
+     width: 100%;
+
+}
+input[type=submit] {
+    color: #fff;
+    margin-top: 5px;
+    background-color: rgb(255, 115, 0);
+    width: 100%;
+}
+
+    /* preloader */
+    #loading{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #fff url('first.gif') no-repeat center;
+        z-index: 99999;
+        
+    }
+    
