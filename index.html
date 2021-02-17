@@ -1,61 +1,193 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="eng-us">
+
 <head>
+    <title>A responsive webpage</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@300&family=Sacramento&display=swap" rel="stylesheet">"> -->
-    <title>💚Hasib's Portfolio</title>
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <link rel="stylesheet" type="text/css" href="webpag.css">
+    <link rel="icon" href="fvicon.ico">
+    <!-- <style>
+        @media (max-width: 1000px) and (min-width: 400px){
+            #head{
+                display: block;
+            }
+        }
+        @media (max-width: 1000px) and (min-width: 400px){
+            #secdiv1{
+                display: block;
+            }
+        }
+        @media (max-width: 1000px) and (min-width: 400px){
+            #secdiv2{
+                display: block;
+            }
+        }
+        @media (max-width: 1000px) and (min-width: 400px){
+            #secdiv3{
+                display: block;
+            }
+        }
+        @media (max-width: 1000px) and (min-width: 400px){
+            #cnt{
+                display: block;
+            }
+        
+    </style> -->
 </head>
-<body>
-    <table cellspacing="10">
-<tr>
-    <td>
 
-        <img src="myimage.jpg" height="150px" width="150px">
-    </td>
-    <td>
-<h1>Sk Hasib Ali</h1>
-<p><strong><em>Founder of Zootic World</em></strong></p>
-<p>Web Developer & Zoologist</p>
-    </td>
-</tr>
+<body onload="myfunction()">
 
-    </table>
-    <hr>
-    <h3>
-        Education
-    </h3>
-    <ul>
-        <li>Intermediate from WBBCHSE</li>
-        <li>Graduation From NSOU</li>
-        <li>ITI from Pursurah</li>
-    </ul><hr>
-<h3>
-    Skills
-</h3>
-<table>
-    <tr>
-        <td>HTML ⭐⭐⭐⭐</td>
-    </tr><tr>
+    <div id="loading"></div>
 
-        <td>CSS ⭐⭐⭐</td>
-    </tr>
-    <tr>
-        <td>JS ⭐⭐</td>
+    <div id="fox" class="jackle">
+        <span class="closebtn" onclick="closeForm()">&#215</span>
+        <div class="tiger">
+            <h2>Sign In</h2>
+            <form>
+                <input type="text" placeholder="Username">
+                <input type="password" placeholder="Password">
+                <input type="submit" onclick="sbmt()" value="Submit">
+            </form>
+            <h5>Don't have an account?<a href="signup2.html" target="blank">Sign Up</a></h5>
+        </div>
+    </div>
 
-    </tr>
-    
-</table>
-<hr>
-<h3>
-    Contact
-</h3>
-<em>
-<p>Kolkata</p>
-<p>Hooghly</p>
-<p>India</p>
-<a href="#">hasib@gmail.com</a></em>
+
+
+    <header>
+        <h4  onclick="openForm()"><a href="#">Sign in</a></h4>
+        <div class="navbar">
+            <ul class="list">
+                <li><a href="#wlcm">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#first">about us</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="sec1">
+        <div id="wlcm" class="secdiv1">
+            <h2>Welcome to My Website</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, cum earum. Placeat labore dolorem illum
+                sunt repudiandae impedit laboriosam doloremque id voluptate dicta at, explicabo ab rerum odio facere
+                praesentium quibusdam iusto cum ad. Tenetur dolorum, repudiandae vitae beatae sunt expedita repellendus
+                neque molestias dicta fugiat ipsam sapiente iste dolorem quo. Deserunt ullam, et iste aut dicta error
+                porro commodi animi voluptatum facilis modi illum temporibus aspernatur, natus distinctio neque eveniet
+                accusantium ipsa vero quos? Vitae ratione commodi cum saepe dicta nostrum nesciunt eum expedita
+                aspernatur iure voluptate veritatis dolorum et, aliquid exercitationem iste. Quibusdam doloremque modi
+                assumenda distinctio odit laudantium ad, repellat perferendis, ipsum perspiciatis aliquid temporibus
+                exercitationem, ullam eaque quos incidunt facere nobis quisquam. Asperiores porro deserunt quisquam
+                dicta illum repudiandae aliquid, ullam doloribus. Reprehenderit optio magni, minima omnis autem, ipsa
+                architecto unde culpa minus consequuntur  possimus animi quia eius corporis quas voluptatem quam
+                laborum assumenda itaque laboriosam id quod saepe. Nesciunt, eaque dolore ipsa quam nemo at unde
+                consequuntur dignissimos accusamus illo corrupti tempora sequi, deserunt quaerat magni iste molestias
+                impedit doloremque alias. Pariatur blanditiis, veniam earum explicabo quas quasi dolorem saepe iure
+                nihil autem officiis, ipsa quae! Exercitationem officia dignissimos, laudantium eius esse tempora
+                asperiores culpa nisi ex consequuntur repellendus error ea velit accusamus. Dolorum amet numquam
+                consequatur itaque ipsam vero fugiat ipsum similique officiis eligendi voluptas animi labore magnam, ut
+                dolorem voluptatum ipsa, nisi porro ullam quos ex atque ratione aperiam incidunt. Consequuntur, fuga,
+                similique odio labore ut voluptatum tempore veritatis cumque voluptatibus aut ea ipsum quo dolores,
+                nobis explicabo omnis sapiente esse quis! Nostrum perferendis eaque placeat. Assumenda, dolorem
+                perferendis obcaecati ducimus earum deleniti similique distinctio iure possimus delectus necessitatibus
+                nulla, non repellat natus dicta commodi voluptates nisi ipsam recusandae ad illum. Ullam, accusantium
+                doloribus et amet eius consectetur id sit repellat reiciendis.</p>
+        </div>
+    </section>
+    <section class="sec2">
+        <div class="secdiv2">
+            <div class="img">
+                <img src="bear.jpg">
+                
+            </div>
+            <div class="img">
+                <img src="bear.jpg">
+            </div>
+            <div class="img">
+                <img src="bear.jpg">
+                
+            </div>
+            <div class="img">
+                <img src="bear.jpg">
+                
+            </div>
+        </div>
+    </section>
+    <section class="sec3">
+        <div id="first" class="secdiv3">
+            <h2>
+                About Us
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit est adipisci minus labore. Sint a
+                distinctio reiciendis placeat minima asperiores deserunt, consectetur dolorum neque nam eum esse ducimus
+                in quaerat? Possimus, sapiente praesentium natus pariatur consequatur, consectetur doloremque animi
+                asperiores laudantium, nisi porro ullam ea unde nam dolore nulla. Nobis ratione dolores aliquid
+                cupiditate id dicta consequatur, sit obcaecati quidem, numquam dolorum consequuntur hic commodi
+                recusandae sapiente nulla aut velit nesciunt eius quo facilis quam explicabo voluptas? Quasi aliquam
+                officiis, accusamus at recusandae ducimus delectus autem aut reiciendis voluptas dolor totam ex
+                distinctio eligendi hic rem nemo facere, nesciunt quo quae laborum facilis dignissimos? Eveniet optio
+                alias sed dolore totam cumque placeat facere deleniti dignissimos ad aliquam porro consequatur
+                doloremque natus, nam tempore odio cum hic amet debitis. Sequi, voluptatibus quisquam, repellendus
+                aliquam libero minus placeat laboriosam, nulla adipisci illum aperiam expedita incidunt sed. Quibusdam
+                hic eos, dolores eligendi nostrum quaerat ipsam esse animi sint et! Enim reprehenderit officia iusto
+                delectus hic dolorem soluta nam, deserunt dignissimos sapiente, corrupti nobis assumenda! Distinctio rem
+                quod cum! Eos voluptatum deleniti nihil earum odit repellendus. Cumque ullam deleniti doloribus, tenetur
+                reprehenderit recusandae aliquid magnam aut ad. Eveniet modi assumenda expedita esse excepturi!
+                Similique, excepturi quidem velit expedita quam quod ipsam aliquid obcaecati quisquam voluptate aperiam
+                officia. Ab at quisquam eius natus quos neque distinctio, cum sit dolorem. Perspiciatis iste quas sunt
+                consequatur distinctio, rerum inventore reprehenderit, perferendis repellendus expedita modi voluptate
+                voluptates! Nam soluta quas, totam molestiae fugiat accusantium facilis atque officiis voluptatem ad
+                vitae voluptatum harum inventore molestias suscipit hic. Repellendus vel inventore est molestias placeat
+                totam, facere necessitatibus sequi. Repellat cupiditate nam facilis voluptate odit voluptates, sapiente
+                eveniet voluptatum placeat omnis velit obcaecati praesentium officiis earum vero explicabo commodi
+                corrupti culpa debitis consectetur! Eum illum quisquam odit ipsum culpa, quos soluta.</p>
+        </div>
+    </section>
+    <div id="contact" class="cnt">
+        <div class="flw">
+            <h2>Contact us</h2>
+            <p>
+                Ganeshpur<br>
+                Khanakul<br>
+                Hooghly<br>
+                <a href="mailto:skhasibali79@gmail.com"> skhasibali42@gmail.com</a><br>
+                9635764242<br>
+            </p>
+        </div>
+        <div class="flw">
+            <h2>Follow us</h2>
+            <span><a href="#"><img src="Facebook-logo.jpg"></a></span>Facebook<br>
+            <span><a href="#"><img src="twtlogo.png"></a></span>Twitter<br>
+            <span><a href="#"><img id="insta" src="insta logo.png"></a></span>&nbsp;Instragram<br>
+        </div>
+    </div>
+    <footer>Powered By : Sk Hasib Ali</footer>
+
+
+
+    <script>
+        function openForm() {
+            document.getElementById("fox").style.display = "block";
+        }
+    </script>
+    <script>
+        function closeForm() {
+            document.getElementById("fox").style.display = "none";
+        }
+    function sbmt(){
+        confirm("Do you wanna submit?");
+        alert("You are sign in.");
+    }
+
+    var preloader = document.getElementById('loading');
+function myfunction(){
+    preloader.style.display = 'none';
+}
+    </script>
+
+
 </body>
+
 </html>
